@@ -36,7 +36,7 @@ public class BandTest {
 			Assert.fail("the flow MUST have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), NullPointerException.class);
-		}
+        		}
 	}
 
 	@Test
