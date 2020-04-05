@@ -41,8 +41,7 @@ public class BandTest {
 
 	@Test
 	public void bandTestB() {
-		try {
-			Band band = new Band(new JSONObject());
+		try {			Band band = new Band(new JSONObject());
 			Assert.fail("the flow MUST have been fallen before");
 		} catch (Exception e) {
 			Assert.assertEquals(e.getClass(), InvalidParameterException.class);
