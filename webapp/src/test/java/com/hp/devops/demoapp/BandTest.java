@@ -69,7 +69,7 @@ public class BandTest {
 
 
 	@Test
-	@Ignore
+	
 	public void bandTestD() {
 		Band band = new Band(test);
 		Assert.assertEquals(test.toString(), band.toJSON().toString());
