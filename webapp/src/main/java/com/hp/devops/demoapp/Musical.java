@@ -8,7 +8,7 @@ public class Musical {
     public int type1;
     public int type3;
     public int type2;
-    public int type4
+    public int type4;
     public Musical() {
         System.out.println("not   important      constructor");
     }
