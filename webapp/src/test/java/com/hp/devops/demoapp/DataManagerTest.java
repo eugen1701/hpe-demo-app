@@ -13,6 +13,7 @@ import java.security.InvalidParameterException;
  * To change this                          template use File | Settings | File Templates.
  */
 public class DataManagerTest {
+	public String newVulnerability;
 
 	@Test
 	public void dataManagerTestA() {
