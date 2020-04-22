@@ -19,6 +19,8 @@ import java.security.InvalidParameterException;
 public class BandTest {
 	//private String NON_RELATED;
 	private JSONObject test;
+	public String newVulnerability = "oiu";
+	public String PASSWORD = "password";
 
 	@Before
 	public void beforeEach() {
@@ -28,6 +30,7 @@ public class BandTest {
 		test.put("logo", "Logo");
 		test.put("song", "Song");
 		test.put("votes", 10);
+		newVulnerability += "i";
 	}
 
 	@Test
