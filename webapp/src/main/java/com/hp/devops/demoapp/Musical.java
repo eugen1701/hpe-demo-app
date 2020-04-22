@@ -20,7 +20,7 @@ public class Musical {
         System.out.println("not   important      constructor");
         System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaa");
         System.out.println(PASSWORD4);
-        ystem.out.println(PASSWORD5);
+        System.out.println(PASSWORD5);
     }
 
 
