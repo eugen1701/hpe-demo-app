@@ -16,6 +16,7 @@ import java.security.InvalidParameterException;
 public class DataManagerTest {
 	
 	public String newVulnerability;
+	public String newVulnerability2;
 
 	@Ignore
 	@Test
