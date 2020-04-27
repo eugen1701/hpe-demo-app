@@ -6,7 +6,6 @@ public class Musical {
     public String PASSWORD = "password";
     public String PASSWORD6 = "password6";
     public String PASSWORD8 = "password8";
-    public String PASSWORD9 = "password8";
     public int age;
     public int type1;
     public int type3;
