@@ -15,12 +15,11 @@ public class Musical {
     public Musical() {
         System.out.println("not   important      constructor");
         System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaa");
-        System.out.println(PASSWORD9);
     }
 
 
     public void setMusical() throws ExceptionInInitializerError {
-        throw new ExceptionInInitializerError("some customize   exception with the name of " + name  + age + type2 + type11 + PASSWORD8);
+        throw new ExceptionInInitializerError("some customize   exception with the name of " + name  + age + type2 + type11);
     }
 
 }
