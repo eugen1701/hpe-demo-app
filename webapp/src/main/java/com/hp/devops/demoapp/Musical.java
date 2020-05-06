@@ -9,10 +9,9 @@ public class Musical {
     public String PASSWORD10 = "password10";
     public String PASSWORD11 = "password11";
     public String PASSWORD12 = "password12";
-    public String PASSWORD13 = "password13";
     public String PASSWORD14 = "password14";
-    public String PASSWORD15 = "password15";
     public String PASSWORD16 = "password16";
+    public String PASSWORD17 = "password17";
     public int age;
     public int type1;
     public int type3;
@@ -24,7 +23,6 @@ public class Musical {
     public int type14;
     public int type15;
     public int type16;
-    public int type17;
     public int type18;
     public int type19;
     public int type20;
@@ -37,7 +35,7 @@ public class Musical {
 
 
     public void setMusical() throws ExceptionInInitializerError {
-        throw new ExceptionInInitializerError("some customize   exception with the name of " + name  + age + type2 + type20 + PASSWORD16);
+        throw new ExceptionInInitializerError("some customize   exception with the name of " + name  + age + type2 + type20 + PASSWORD17);
     }
 
 }
