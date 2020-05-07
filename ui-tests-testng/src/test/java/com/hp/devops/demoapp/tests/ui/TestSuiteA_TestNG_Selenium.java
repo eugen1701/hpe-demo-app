@@ -39,7 +39,7 @@ public class TestSuiteA_TestNG_Selenium {
             query = data.getDriver().findElement(By.id("jenkins"));
             Assert.assertEquals(query.getTagName(), "body");
         }
-        Assert.assertEquals(query.isDisplayed(), true);
+        Assert.assertEquals(query.isDisplayed(), false);
     }
 
     @Test
