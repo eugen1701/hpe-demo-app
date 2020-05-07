@@ -64,6 +64,7 @@ public class TestSuiteA_TestNG_Selenium {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        Assert(false);
     }
 
     @AfterClass(alwaysRun = true)
