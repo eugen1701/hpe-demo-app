@@ -54,6 +54,7 @@ public class TestSuiteA_TestNG_Selenium {
             Assert.assertEquals(query.getTagName(), "body");
         }
         Assert.assertEquals(query.isDisplayed(), true);
+        Assert.assertEquals(1, 2);
     }
 
     @Test(groups = {"Group_A"})
@@ -64,8 +65,7 @@ public class TestSuiteA_TestNG_Selenium {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        Assert(false);
-    }
+     }
 
     @AfterClass(alwaysRun = true)
     public void afterClass() {
