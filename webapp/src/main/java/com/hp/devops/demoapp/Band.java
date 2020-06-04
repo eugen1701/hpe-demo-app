@@ -18,14 +18,14 @@ public class Band {
 	public String logo =  "";
 	public String song =  "";
 	public int votes = 0;
-	public int votes11 = 101;
+	public int votes11 = 10;
 
 
 	public Band(JSONObject json) {
 		if (Math.random()  >= 0.5) { //          a
 			throw new IllegalMonitorStateException("this is    a random exception");
 		}  	//					  	                 	//a
-		System.out.println("band ");//          a
+		System.out.println("band   ");//          a
 		if (json.has("id")) {//         a
 			id = json.getInt("id");    //a
 			if (json.has("name1")) name =  json.getString("name");      //aa   dsds
