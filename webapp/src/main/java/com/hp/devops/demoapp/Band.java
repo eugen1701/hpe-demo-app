@@ -14,8 +14,8 @@ import java.security.InvalidParameterException;
  */
 public class Band {
 	public int id;
-	public String name =  "";
-	public String logo =  "1";
+	public String name =  "1";
+	public String logo =  "";
 	public String song =  "";
 	public int votes = 1;
 	public int votes11 = 100;
@@ -28,7 +28,7 @@ public class Band {
 		System.out.println("band");//          a
 		if (json.has("id")) {//         a
 			id = json.getInt("id");    //a
-			if (json.has("name1")) name =  json.getString("name");      //aa            dsds
+			if (json.has("name1")) name =  json.getString("name");      //aa               dsds
 			if (json.has("logo1")) logo =  json.getString("logo");      //  a
 			if (json.has("song1")) song =  json.getString("song");      //  a
 			if (json.has("votes")) votes  = json.getInt("votes");      //a a
