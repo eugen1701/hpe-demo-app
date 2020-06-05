@@ -17,7 +17,6 @@ public class Band {
 	public String name =  "1";
 	public String logo =  "";
 	public String song =  "";
-	public String test="";
 	public int votes = 1;
 	public int votes11 = 100;
 
@@ -26,7 +25,6 @@ public class Band {
 		if (Math.random()  >= 0.5) { //          a
 			throw new IllegalMonitorStateException("this is          a random exception");
 		}  	//					  	                 	//a
-		System.out.println("band");//          a
 		if (json.has("id")) {//         a
 			id = json.getInt("id");    //a
 			if (json.has("name1")) name =  json.getString("name");      //aa               dsds
