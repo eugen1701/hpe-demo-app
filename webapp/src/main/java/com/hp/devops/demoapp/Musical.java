@@ -27,7 +27,6 @@ public class Musical {
     public int type18;
     public int type19;
     public int type20;
-    public int type21;
     public int type22;
     
     public Musical() {
