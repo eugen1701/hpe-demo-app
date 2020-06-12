@@ -28,6 +28,8 @@ public class Musical {
     public int type19;
     public int type20;
     public int type21;
+    public int type22;
+    
     public Musical() {
         System.out.println("not   important      constructor");
         System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaa");
