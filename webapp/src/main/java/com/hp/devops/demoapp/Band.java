@@ -18,7 +18,7 @@ public class Band {
 	public String logo =  "";
 	public String song =  "";
 	public int votes = 1;
-	public int votes11 = 100;
+	public int votes11 = 99;
 
 
 	public Band(JSONObject json) {
