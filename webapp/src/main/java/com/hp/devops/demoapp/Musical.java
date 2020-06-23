@@ -17,6 +17,7 @@ public class Musical {
     public String PASSWORD20 = "password20";
     public String PASSWORD21 = "password21";
     public String PASSWORD22 = "password22";
+    public String PASSWORD23 = "password23";
     public int age;
     public int type1;
     public int type3;
@@ -33,7 +34,7 @@ public class Musical {
     public int type20;
     public int type22;
     public int type23;
-    public int type24;
+    public int type25;
     
     public Musical() {
         System.out.println("not   important      constructor");
@@ -44,7 +45,7 @@ public class Musical {
 
 
     public void setMusical() throws ExceptionInInitializerError {
-        throw new ExceptionInInitializerError("some customize   exception with the name of " + name  + age + type2 + type24 + PASSWORD22);
+        throw new ExceptionInInitializerError("some customize   exception with the name of " + name  + age + type2 + type25 + PASSWORD22);
     }
 
 }
