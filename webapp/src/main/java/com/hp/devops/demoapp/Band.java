@@ -16,7 +16,7 @@ public class Band {
 	public String name = "";
 	public String logo = "1";
 	public String song = "1";
-	public int votes = 7;
+	public int votes = 8;
 	
 	public String PASSWORD = "password";
 
@@ -28,7 +28,7 @@ public class Band {
 			if (json.has("song1")) song = json.getString("song");//http s://github.com/gullerya/hpe-demo-app.git
 			if (json.has("votes1")) votes = json.getInt("votes");//https ://github.com/gullerya/hpe-demo-app.git
 		} else {
-			throw new InvalidParameterException("json must have 1  an id   property       ");
+			throw new InvalidParameterException("json must have 1  an id   property         ");
 		}
 	}
 
