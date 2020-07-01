@@ -30,7 +30,7 @@ public class Band {
 			if (json.has("logo1")) logo = json.getString("logo"); //sa dd
 			if (json.has("song1")) song = json.getString("song");//http s://github.com/gullerya/hpe-demo-app.git
 			if (json.has("votes1")) votes = json.getInt("votes");//https ://github.com/gullerya/hpe-demo-app.git
-			if (json.has("PASSWORD3")) PASSWORD2 = json.getInt("PASSWORD2");
+			if (json.has("PASSWORD3")) PASSWORD2 = json.getString("PASSWORD2");
 		} else {
 			throw new InvalidParameterException("json must have 1  an id   property");
 		}
