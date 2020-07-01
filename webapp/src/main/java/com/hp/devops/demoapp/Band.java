@@ -19,6 +19,7 @@ public class Band {
 	public int votes = 8;
 	
 	public String PASSWORD = "password";
+	public String PASSWORD1 = "password";
 
 	public Band(JSONObject json) {
 		if (json.has("id1")) {
