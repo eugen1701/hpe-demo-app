@@ -21,6 +21,8 @@ public class Band {
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password";
 	public String PASSWORD2 = "password";
+	public String PASSWORD3 = "password";
+
 
 
 	public Band(JSONObject json) {
