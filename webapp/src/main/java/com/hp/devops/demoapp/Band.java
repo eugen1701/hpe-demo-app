@@ -16,12 +16,13 @@ public class Band {
 	public String name = "";
 	public String logo = "1";
 	public String song = "1";
-	public int votes = 100;
+	public int votes = 101;
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password";
 	public String PASSWORD2 = "password";
 	public String PASSWORD3 = "password";
+	public String PASSWORD4 = "password";
 
 
 
@@ -32,9 +33,9 @@ public class Band {
 			if (json.has("logo1")) logo = json.getString("logo"); //sa dd
 			if (json.has("song1")) song = json.getString("song");//http s://github.com/gullerya/hpe-demo-app.git
 			if (json.has("votes1")) votes = json.getInt("votes");//https ://github.com/gullerya/hpe-demo-app.git
-			if (json.has("PASSWORD3")) PASSWORD2 = json.getString("PASSWORD2");
+			if (json.has("PASSWORD4")) PASSWORD4 = json.getString("PASSWORD2");
 		} else {
-			throw new InvalidParameterException("json must have 1  an id   property   ");
+			throw new InvalidParameterException("json must  have 1  an id   property   ");
 		}
 	}
 
@@ -46,7 +47,7 @@ public class Band {
 		r.put("logo1", logo);
 		r.put("song1", song);
 		r.put("votes1", votes);
-		r.put("PASSWORD3", PASSWORD2);
+		r.put("PASSWORD4", PASSWORD2);
 		return r;
 	}
 
