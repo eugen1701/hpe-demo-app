@@ -23,6 +23,7 @@ public class Band {
 	public String PASSWORD2 = "password";
 	public String PASSWORD3 = "password";
 	public String PASSWORD4 = "password";
+	public String PASSWORD5 = "during re-index";
 
 
 
