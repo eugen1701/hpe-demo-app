@@ -25,6 +25,7 @@ public class Band {
 	public String PASSWORD4 = "password";
 	public String PASSWORD5 = "during re-index";
 	public String PASSWORD6 = "after re-index";
+	public String PASSWORD7 = "regression";
 
 
 
