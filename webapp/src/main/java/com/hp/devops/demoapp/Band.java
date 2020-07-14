@@ -16,7 +16,7 @@ public class Band {
 	public String name = "";
 	public String logo = "1";
 	public String song = "1";
-	public int votes = 102;
+	public int votes = 100;
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password";
@@ -29,6 +29,7 @@ public class Band {
 	public String PASSWORD7 = "regression";
 	public String PASSWORD9 = "regression";
 	public String PASSWORD10 = "regression";
+	public String PASSWORD11 = "regression";
 
 
 
