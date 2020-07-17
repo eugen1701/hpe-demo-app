@@ -13,10 +13,10 @@ import java.security.InvalidParameterException;
  */
 public class Band {
 	public int id;
-	public String name = "";
+	public String name = "test";
 	public String logo = "1";
 	public String song = "1";
-	public int votes = 99;
+	public int votes = 100;
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password";
