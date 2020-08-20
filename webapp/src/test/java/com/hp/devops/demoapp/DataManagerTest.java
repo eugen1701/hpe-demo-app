@@ -18,6 +18,7 @@ public class DataManagerTest {
 	public String newVulnerability;
 	public String newVulnerability2;
 	public String newVulnerability3;
+	public String newVulnerability4;
 
 	@Ignore
 	@Test
