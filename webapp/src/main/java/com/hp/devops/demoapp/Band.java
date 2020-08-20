@@ -40,6 +40,7 @@ public class Band {
 	
 	public String PASSWORD19 = "regression";
 	public String PASSWORD20 = "regression";
+	public String PASSWORD21 = "regression";
 	
 
 
