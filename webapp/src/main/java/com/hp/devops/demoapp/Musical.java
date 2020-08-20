@@ -18,6 +18,8 @@ public class Musical {
     public String PASSWORD21 = "password21";
     public String PASSWORD22 = "password22";
     public String PASSWORD23 = "password23";
+     public String PASSWORD24 = "password24";
+     public String PASSWORD25 = "password25";
     public int age;
     public int type1;
     public int type3;
