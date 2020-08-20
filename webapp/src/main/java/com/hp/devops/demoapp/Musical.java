@@ -21,6 +21,7 @@ public class Musical {
      public String PASSWORD24 = "password24";
      public String PASSWORD25 = "password25";
     public String PASSWORD26= "password26";
+    public String PASSWORD27= "password28";
     public int age;
     public int type1;
     public int type3;
@@ -38,6 +39,7 @@ public class Musical {
     public int type22;
     public int type23;
     public int type25;
+    public int type26;
     
     public Musical() {
         System.out.println("not   important      constructor");
