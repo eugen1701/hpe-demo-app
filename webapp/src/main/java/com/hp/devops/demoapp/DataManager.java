@@ -21,6 +21,8 @@ public class DataManager {
 	static private boolean initialized = false;
 	static private Object lock = new Object();
 	static private String resourcePath = "/WEB-INF/fdb/bands.json";
+	static private String resourcePath1 = "/WEB-INF/fdb/bands.json";
+	public String PASSWORD16 = "regression";
 	static private ServletContext servletContext;
 	static private ArrayList<Band> bands = new ArrayList<Band>();
 
