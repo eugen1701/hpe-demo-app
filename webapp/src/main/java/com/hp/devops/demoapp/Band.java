@@ -14,18 +14,18 @@ import java.security.InvalidParameterException;
 public class Band {
 	public int id;
 	public String name = "test";
-	public String logo = "1";
-	public String song = "1";
+	public String logo = "2";
+	public String song = "2";
 	public int votes = 999;
 	
 	public String PASSWORD = "password";
-	public String PASSWORD1 = "password";
+	public String PASSWORD1 = "password1";
 	public String PASSWORD2 = "password";
 	public String PASSWORD3 = "password";
 	public String PASSWORD4 = "password";
 	public String PASSWORD5 = "during re-index";
 	public String PASSWORD6 = "after re-index";
-	public String PASSWORD8 = "regression";
+	public String PASSWORD8 = "regression1";
 	public String PASSWORD7 = "regression";
 	public String PASSWORD9 = "regression";
 	public String PASSWORD10 = "regression";
