@@ -46,6 +46,7 @@ public class Band {
 	public String PASSWORD23 = "regression";
 	
 	public static String [] strings1 = {"first","second"}; 
+	public static String [] strings2 = {"first","second"}; 
 	
 	
 
