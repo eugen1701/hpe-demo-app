@@ -5,8 +5,8 @@
 
 variables:
   InjectAlmOctaneTasks: 'true'
-  AlmOctaneConnection33: 'qa8'
-  AlmOctaneConnection33Workspaces: '1002'
+  AlmOctaneConnection11: 'qa8'
+  AlmOctaneConnection11Workspaces: '33006'
   ALMOctaneLogLevel: 'debug'
   system.debug: 'true'
   system.debugContext: 'true'
@@ -18,7 +18,7 @@ jobs:
 
 - job: A
   steps:
-  - script: echo Hello, Job A!
+  - bash: echo $(Build.SourceBranchName)
     displayName: 'Run a one-line script'
   dependsOn:
   - AlmOctanePipelineStart
