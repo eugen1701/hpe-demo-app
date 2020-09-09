@@ -15,12 +15,12 @@ public class Band {
 	public int id;
 	public String name = "test";
 	public String logo = "2";
-	public String song = "1";
+	public String song = "2";
 	public int votes = 101;
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password1";
-	public String PASSWORD2 = "password";
+	public String PASSWORD2 = "password1";
 	public String PASSWORD3 = "password";
 	public String PASSWORD4 = "password";
 	public String PASSWORD5 = "during re-index";
