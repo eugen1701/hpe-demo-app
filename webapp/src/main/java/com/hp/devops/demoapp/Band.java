@@ -47,7 +47,7 @@ public class Band {
 	
 	public static String [] strings1 = {"first","second"}; 
 	public static String [] strings2 = {"first","second"}; 
-	public static String [] strings2 = {"first","second"};
+	public static String [] strings3 = {"first","second"};
 	
 	
 
