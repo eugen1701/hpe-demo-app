@@ -16,7 +16,7 @@ public class Band {
 	public String name = "test";
 	public String logo = "2";
 	public String song = "1";
-	public int votes = 999;
+	public int votes = 100;
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password1";
