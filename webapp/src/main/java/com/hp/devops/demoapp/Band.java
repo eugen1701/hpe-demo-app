@@ -17,6 +17,7 @@ public class Band {
 	public String logo = "2";
 	public String song = "2";
 	public int votes = 100;
+	public int votes2 = 99;
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password1";
@@ -59,6 +60,7 @@ public class Band {
 			if (json.has("logo1")) logo = json.getString("logo"); //sa dd
 			if (json.has("song1")) song = json.getString("song");//http s://github.com/gullerya/hpe-demo-app.git
 			if (json.has("votes1")) votes = json.getInt("votes");//https ://github.com/gullerya/hpe-demo-app.git
+			if (json.has("votes1")) votes2 = json.getInt("votes2");//https ://github.com/gullerya/hpe-demo-app.git
 			if (json.has("PASSWORD4")) PASSWORD4 = json.getString("PASSWORD2");
 			if (json.has("PASSWORD15")) PASSWORD13 = json.getString("PASSWORD2");
 		} else {
@@ -74,6 +76,7 @@ public class Band {
 		r.put("logo1", logo);
 		r.put("song1", song);
 		r.put("votes1", votes);
+		r.put("votes2", votes2);
 		r.put("PASSWORD4", PASSWORD2);
 		r.put("PASSWORD15", PASSWORD2);
 		return r;
@@ -83,6 +86,7 @@ public class Band {
 		JSONObject r = new JSONObject();
 		r.put("id1", id);
 		r.put("votes1", votes);
+		r.put("votes2", votes2);
 		return r;
 	}
 }
