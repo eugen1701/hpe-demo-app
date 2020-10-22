@@ -6,7 +6,7 @@
 variables:
   InjectAlmOctaneTasks: 'true'
   OctaneServiceConnection: 'Azure-Octane'
-  WorkspaceList: '1003'
+  WorkspaceList: '1002'
   ALMOctaneLogLevel: 'debug'
   system.debug: 'true'
   system.debugContext: 'true'
