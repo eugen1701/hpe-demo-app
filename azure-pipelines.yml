@@ -2,27 +2,39 @@
 # Start with a minimal pipeline that you can customize to build and deploy your code..
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
-
+ 
 variables:
   InjectAlmOctaneTasks: 'true'
-  AlmOctaneConnection11: 'Azure-Octane'
-  AlmOctaneConnection11Workspaces: '1003'
+  OctaneServiceConnection: 'Azure-Octane'
+  WorkspaceList: '1003'
   ALMOctaneLogLevel: 'debug'
   system.debug: 'true'
   system.debugContext: 'true'
   GithubRepositoryConnection: 'elokshin'
-
+ 
+ 
 jobs:
 - job: AlmOctanePipelineStart
   condition: always()
-
+  steps:
+  - task: octane-start-task@1
+    inputs:
+      OctaneServiceConnection: $(OctaneServiceConnection)
+      WorkspaceList: $(WorkspaceList)
+      GithubRepositoryConnection: $(GithubRepositoryConnection)
+ 
+ 
 - job: A
   steps:
-  - bash: echo $(Build.SourceBranchName)
+  - script: echo Hello, Job A!
     displayName: 'Run a one-line script'
+  - task: octane-connection-verifier@1
+    inputs:
+      OctaneServiceConnection: $(OctaneServiceConnection)
   dependsOn:
   - AlmOctanePipelineStart
-
+ 
+ 
 - job: B
   dependsOn: AlmOctanePipelineStart
   pool:
@@ -38,9 +50,15 @@ jobs:
       publishJUnitResults: true
       testResultsFiles: '**/surefire-reports/TEST-*.xml'
       goals: 'package'
-
+ 
 - job: AlmOctanePipelineEnd
   condition: always()
+  steps:
+  - task: octane-end-task@1
+    inputs:
+      OctaneServiceConnection: $(OctaneServiceConnection)
+      WorkspaceList: $(WorkspaceList)
+      GithubRepositoryConnection: $(GithubRepositoryConnection)
   dependsOn:
   - AlmOctanePipelineStart
   - A
