@@ -8,7 +8,6 @@ import org.junit.Test;
  *
  */
 public class TestD {
-	//comment
 	@Test
 	public void testUIcaseAlwaysPass() {
 		System.out.println("Proudly running test " + Thread.currentThread().getStackTrace()[1]);
