@@ -27,6 +27,7 @@ public class BandTest {
 		test.put("logo", "Logo");
 		test.put("song", "Song");
 		test.put("votes", 10);
+		test.put("votes2", 99);
 	}
 
 	@Test
@@ -60,6 +61,7 @@ public class BandTest {
 		Assert.assertEquals(band.logo, "");
 		Assert.assertEquals(band.song, "Song");
 		Assert.assertEquals(band.votes, 10);
+		Assert.assertEquals(band.votes, 99);
 	}
 
 	@Test
