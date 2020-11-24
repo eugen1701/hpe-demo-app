@@ -17,7 +17,7 @@ public class Band {
 	public String logo = "";
 	public String song = "";
 	public int votes = 0;
-//
+
 	public Band(JSONObject json) {
 		if (json.has("id")) {
 			id = json.getInt("id");
