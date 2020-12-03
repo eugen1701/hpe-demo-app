@@ -62,7 +62,8 @@ public class BandTest {
 		Assert.assertEquals(band.song, "Song");
 		Assert.assertEquals(band.votes, 10);
 		Assert.assertEquals(band.votes, 99);
-		Assert.assertEquals(band.PASSWORD31, "PASSWORD31");
+		Assert.assertEquals(band.votes2, 99);
+		Assert.assertEquals(band.PASSWORD32, "PASSWORD32");
 	}
 
 	@Test
