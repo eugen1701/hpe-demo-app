@@ -14,6 +14,7 @@ public class Utils {
 					System.out.println("updated   to fail test sdf  ");
 				}
 			}
+			System.out.println(input);
 		}
 		return nodes.toArray(new String[nodes.size()]);
 	}
