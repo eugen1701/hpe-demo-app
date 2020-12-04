@@ -26,4 +26,12 @@ public class Utils {
 	}
 	return true;
 	}
+	
+	static boolean simpleNotLogical() {
+		System.out.println("lsdkjfl");
+		for (int i = 0; i < 10; i++) {
+			System.out.println(i);
+	}
+	return false;
+	}
 }
