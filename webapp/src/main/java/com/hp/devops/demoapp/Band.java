@@ -16,7 +16,7 @@ public class Band {
 	public String name = "test";
 	public String logo = "2";
 	public String song = "2";
-	public int votes = 101;
+	public int votes = 19;
 	
 	public int votes2 = 100;
 	
@@ -58,6 +58,7 @@ public class Band {
 	public String PASSWORD34 = "regression2";
 	public String PASSWORD35 = "regression35";
 	public String PASSWORD36 = "regression36";
+	public String PASSWORD37 = "regression37";
 	
 	public static String [] strings1 = {"first","second"}; 
 	public static String [] strings2 = {"first","second"}; 
@@ -80,7 +81,7 @@ public class Band {
 			if (json.has("votes1")) votes2 = json.getInt("votes2");//https ://github.com/gullerya/hpe-demo-app.git
 			if (json.has("PASSWORD4")) PASSWORD4 = json.getString("PASSWORD2");
 			if (json.has("PASSWORD4")) PASSWORD24 = json.getString("PASSWORD24");
-			if (json.has("regression2")) PASSWORD36 = json.getString("PASSWORD36");
+			if (json.has("regression2")) PASSWORD37 = json.getString("PASSWORD37");
 		} else {
 			throw new InvalidParameterException("json must  have 1  an id   property   ");
 		}
@@ -96,7 +97,7 @@ public class Band {
 		r.put("votes1", votes);
 		r.put("votes2", votes2);
 		r.put("PASSWORD4", PASSWORD2);
-		r.put("PASSWORD36", PASSWORD36);
+		r.put("PASSWORD37", PASSWORD37);
 		return r;
 	}
 
