@@ -60,6 +60,7 @@ public class Band {
 	public String PASSWORD36 = "regression36";
 	public String PASSWORD37 = "regression37";
 	public String PASSWORD38 = "regression38";
+	public String PASSWORD39 = "regression39";
 	
 	public static String [] strings1 = {"first","second"}; 
 	public static String [] strings2 = {"first","second"}; 
@@ -67,6 +68,7 @@ public class Band {
 	public static String [] strings4 = {"first","second"};
 	public static String [] strings5 = {"first","second"};
 	public static String [] strings6 = {"first","second"};
+	public static String [] strings7 = {"first","second"};
 	
 	
 
