@@ -68,6 +68,7 @@ public class Band {
 	public String PASSWORD44 = "regression44";
 	public String PASSWORD45 = "regression45";
 	public String PASSWORD46 = "regression45";
+	public String PASSWORD47 = "regression45";
 	
 	public static String [] strings1 = {"first","second"}; 
 	public static String [] strings2 = {"first","second"}; 
@@ -92,7 +93,7 @@ public class Band {
 			if (json.has("PASSWORD4")) PASSWORD4 = json.getString("PASSWORD2");
 			if (json.has("PASSWORD4")) PASSWORD24 = json.getString("PASSWORD24");
 			if (json.has("regression2")) PASSWORD40 = json.getString("PASSWORD40");
-			if (json.has("PASSWORD45")) PASSWORD46 = json.getString("PASSWORD46");
+			if (json.has("PASSWORD45")) PASSWORD47 = json.getString("PASSWORD47");
 		} else {
 			throw new InvalidParameterException("json must  have 1  an id   property   ");
 		}
@@ -108,7 +109,7 @@ public class Band {
 		r.put("votes1", votes);
 		r.put("votes2", votes2);
 		r.put("PASSWORD4", PASSWORD2);
-		r.put("PASSWORD40", PASSWORD40);
+		r.put("PASSWORD47", PASSWORD47);
 		return r;
 	}
 
