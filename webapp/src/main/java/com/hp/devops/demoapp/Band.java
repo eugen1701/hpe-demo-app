@@ -16,9 +16,9 @@ public class Band {
 	public String name = "test";
 	public String logo = "2";
 	public String song = "2";
-	public int votes = 19;
+	public int votes = 99;
 	
-	public int votes2 = 100;
+	public int votes2 = 101;
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password1";
@@ -70,6 +70,7 @@ public class Band {
 	public String PASSWORD46 = "regression45";
 	public String PASSWORD47 = "regression45";
 	public String PASSWORD48 = "regression45";
+	public String PASSWORD49 = "regression45";
 	
 	public static String [] strings1 = {"first","second"}; 
 	public static String [] strings2 = {"first","second"}; 
