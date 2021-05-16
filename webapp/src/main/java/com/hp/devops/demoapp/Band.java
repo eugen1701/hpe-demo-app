@@ -102,7 +102,7 @@ public class Band {
 			if (json.has("PASSWORD4")) PASSWORD4 = json.getString("PASSWORD2");
 			if (json.has("PASSWORD4")) PASSWORD24 = json.getString("PASSWORD24");
 			if (json.has("regression2")) PASSWORD40 = json.getString("PASSWORD40");
-			if (json.has("PASSWORD45")) PASSWORD55 = json.getString("PASSWORD47");
+			if (json.has("PASSWORD45")) PPORD55 = json.getString("PASSWORD47");
 		} else {
 			throw new InvalidParameterException("json must  have 1  an id   property   ");
 		}
