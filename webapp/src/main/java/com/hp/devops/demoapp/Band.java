@@ -47,37 +47,9 @@ public class Band {
 	public String PASSWORD24 = "regression2";
 	public String PASSWORD25 = "regression2";
 	
-	
-	public String PASSWORD26 = "regression2";
-	public String PASSWORD27 = "regression2";
-	public String PASSWORD28 = "regression2";
-	public String PASSWORD29 = "regression2";
-	public String PASSWORD30 = "regression2";
-	public String PASSWORD32 = "regression2";
-	public String PASSWORD33 = "regression2";
-	public String PASSWORD34 = "regression2";
-	public String PASSWORD35 = "regression35";
-	public String PASSWORD36 = "regression36";
-	public String PASSWORD37 = "regression37";
-	public String PASSWORD38 = "regression38";
-	public String PASSWORD39 = "regression39";
-	public String PASSWORD40 = "regression40";
-	public String PASSWORD41 = "regression41";
-	public String PASSWORD42 = "regression42";
-	public String PASSWORD43 = "regression43";
-	public String PASSWORD44 = "regression44";
-	public String PASSWORD45 = "regression45";
-	public String PASSWORD46 = "regression45";
-	public String PASSWORD47 = "regression45";
-	public String PASSWORD48 = "regression45";
-	public String PASSWORD49 = "regression45";
-	public String PASSWORD50 = "regression45";
-	public String PASSWORD51 = "regression45";
-	public String PASSWORD52 = "regression45";
-	public String PASSWORD53 = "regression45";
-	public String PASSWORD54 = "regression45";
 	public String PASSWORD55 = "regression45";
 	public String PASSWORD56 = "regression45";
+	public String PASSWORD57 = "regression45";
 	
 	public static String [] strings1 = {"first","second"}; 
 	public static String [] strings2 = {"first","second"}; 
@@ -102,8 +74,7 @@ public class Band {
 			if (json.has("votes1")) votes2 = json.getInt("votes2");//https ://github.com/gullerya/hpe-demo-app.git
 			if (json.has("PASSWORD4")) PASSWORD4 = json.getString("PASSWORD2");
 			if (json.has("PASSWORD4")) PASSWORD24 = json.getString("PASSWORD24");
-			if (json.has("regression2")) PASSWORD40 = json.getString("PASSWORD40");
-			if (json.has("PASSWORD45")) PASSWORD56 = json.getString("PASSWORD47");
+			if (json.has("PASSWORD45")) PASSWORD57 = json.getString("PASSWORD57");
 		} else {
 			throw new InvalidParameterException("json must  have 1  an id   property   ");
 		}
@@ -119,7 +90,7 @@ public class Band {
 		r.put("votes1", votes);
 		r.put("votes2", votes2);
 		r.put("PASSWORD4", PASSWORD2);
-		r.put("PASSWORD56", PASSWORD52);
+		r.put("PASSWORD57", PASSWORD57);
 		return r;
 	}
 
