@@ -16,7 +16,7 @@ public class Band {
 	public String name = "test";
 	public String logo = "2";
 	public String song = "2";
-	public int votes = 100;
+	public int votes = 99;
 	
 	public int votes2 = 101;
 	
@@ -88,7 +88,7 @@ public class Band {
 		r.put("name1", name);
 		r.put("logo1", logo);
 		r.put("song1", song);
-		r.put("votes1", votes);
+		r.put("votes", votes);
 		r.put("votes2", votes2);
 		r.put("PASSWORD4", PASSWORD2);
 		r.put("PASSWORD58", PASSWORD58);
@@ -99,7 +99,7 @@ public class Band {
 	public JSONObject toJSONVotes() {
 		JSONObject r = new JSONObject();
 		r.put("id1", id);
-		r.put("votes1", votes);
+		r.put("votes", votes);
 		r.put("votes2", votes2);
 		return r;
 	}
