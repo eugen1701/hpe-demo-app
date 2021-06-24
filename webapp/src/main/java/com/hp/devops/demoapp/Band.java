@@ -18,7 +18,7 @@ public class Band {
 	public String song = "2";
 	public int votes = 99;
 	
-	public int votes2 = 101;
+	public int votes2 = 99;
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1 = "password1";
@@ -62,7 +62,7 @@ public class Band {
 	public static String [] strings8 = {"first","second"};
 	
 	public String PASSWORD58 = "regression45";
-	public String PASSWORD59 = "regression45";
+	public String PASSWORD59 = "regression37";
 
 
 	public Band(JSONObject json) {
