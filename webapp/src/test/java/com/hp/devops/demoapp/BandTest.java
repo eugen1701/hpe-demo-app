@@ -63,7 +63,7 @@ public class BandTest {
 		Assert.assertEquals(band.votes, 10);
 		Assert.assertEquals(band.votes, 99);
 		Assert.assertEquals(band.votes2, 99);
-		Assert.assertEquals(band.PASSWORD59, "PASSWORD32");
+		Assert.assertEquals(band.PASSWORD60, "PASSWORD32");
 	}
 
 	@Test
