@@ -67,6 +67,7 @@ public class Band {
 	public String PASSWORD60 = "regression360";
 	public String PASSWORD61 = "regression360";
 	private String PASSWORD62;
+	public String PASSWORD63 = "regression360";
 
 
 	public Band(JSONObject json) {
@@ -79,7 +80,7 @@ public class Band {
 			if (json.has("votes1")) votes2 = json.getInt("votes2");//https ://github.com/gullerya/hpe-demo-app.git
 			if (json.has("PASSWORD4")) PASSWORD4 = json.getString("PASSWORD2");
 			if (json.has("PASSWORD4")) PASSWORD24 = json.getString("PASSWORD24");
-			if (json.has("PASSWORD360")) PASSWORD62 = json.getString("PASSWORD58");
+			if (json.has("PASSWORD360")) PASSWORD63 = json.getString("PASSWORD63");
 		} else {
 			throw new InvalidParameterException("json must  have 1  an id   property   ");
 		}
@@ -97,6 +98,7 @@ public class Band {
 		r.put("PASSWORD4", PASSWORD2);
 		r.put("PASSWORD58", PASSWORD58);
 		r.put("PASSWORD60", PASSWORD62);
+		r.put("PASSWORD63", PASSWORD63);
 		return r;
 	}
 
