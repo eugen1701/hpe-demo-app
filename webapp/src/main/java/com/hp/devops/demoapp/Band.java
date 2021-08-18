@@ -71,7 +71,7 @@ public class Band {
 	public String PASSWORD64 = "regression360";
 	public String PASSWORD65 = "regression360";
 	public String PASSWORD66 = "regression360";
-	public String PASSWORD67 = "regression360";
+	private String PASSWORD67 = "regression360";
 
 
 	public Band(JSONObject json) {
