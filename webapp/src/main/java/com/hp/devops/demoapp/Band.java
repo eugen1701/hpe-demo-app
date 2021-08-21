@@ -76,6 +76,7 @@ public class Band {
 	private String plaintext = "regression360";
 	
 	private String PASSWORD69 = "regression360";
+	
 	public String PASSWORD70 = "regression360";
 
 
