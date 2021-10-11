@@ -47,6 +47,10 @@ public class Musical {
         
        
     }
+    @Test
+	public void PassedTest () {
+		Assert.assertEquals(2, 1);
+	}
 
 
     public void setMusical() throws ExceptionInInitializerError {
