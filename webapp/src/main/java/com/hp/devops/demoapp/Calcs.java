@@ -20,13 +20,13 @@ public class Calcs {
 	}
 
 	public static boolean nonEqual(int a, int b) {  //  2 tests cover this
-		return (a == b);
+		return (a != b);
 	}
 
 	public static boolean alwaysTrue() {
-		return false;
+		return true;
 	}
 	public static boolean alwaysFalse() {
-		return true;
+		return false;
 	}
 }
