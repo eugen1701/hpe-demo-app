@@ -81,4 +81,8 @@ public class DataManagerTest {
 			Assert.assertEquals(e.getMessage(), "service not initialized");
 		}
 	}
+	@Test
+	public void PassedTest () {
+		Assert.assertEquals(2, 1);
+	}
 }
