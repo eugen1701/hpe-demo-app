@@ -77,7 +77,7 @@ Assert.assertEquals(2, 1);
 	public void bandTestD() {
 		Band band = new Band(test);
 		Assert.assertEquals(test.toString(), band.toJSON().toString());
-		Assert.assertEquals(1, 1);
+		Assert.assertEquals(2, 1);
 	}
 
 	@Test
