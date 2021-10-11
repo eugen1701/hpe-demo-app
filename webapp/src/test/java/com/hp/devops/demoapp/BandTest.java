@@ -88,4 +88,12 @@ Assert.assertEquals(2, 1);
 		tmp.put("votes", test.get("votes"));
 		Assert.assertEquals(tmp.toString(), band.toJSONVotes().toString());
 	}
+	@Test
+	public void FailedTest () {
+		Assert.assertEquals(2, 1);
+	}
+	@Test
+	public void PassedTest () {
+		Assert.assertEquals(1, 1);
+	}
 }
