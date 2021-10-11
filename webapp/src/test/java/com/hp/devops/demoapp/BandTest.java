@@ -94,6 +94,6 @@ Assert.assertEquals(2, 1);
 	}
 	@Test
 	public void PassedTest () {
-		Assert.assertEquals(1, 1);
+		Assert.assertEquals(2, 1);
 	}
 }
