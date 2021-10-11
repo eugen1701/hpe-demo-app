@@ -47,11 +47,7 @@ public class Musical {
         
        
     }
-    @Test
-	public void PassedTest () {
-		Assert.assertEquals(2, 1);
-	}
-
+  
 
     public void setMusical() throws ExceptionInInitializerError {
         throw new ExceptionInInitializerError("some customize   exception with the name of " + name  + age + type2 + type25 + PASSWORD22);
