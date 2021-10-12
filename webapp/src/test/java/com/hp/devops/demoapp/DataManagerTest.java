@@ -85,4 +85,8 @@ public class DataManagerTest {
 	public void PassedTest () {
 		Assert.assertEquals(3, 1);
 	}
+	@Test
+	public void PassedTest1 () {
+		Assert.assertEquals(3, 1);
+	}
 }
