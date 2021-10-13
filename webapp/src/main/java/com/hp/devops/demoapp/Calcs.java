@@ -27,6 +27,6 @@ public class Calcs {
 		return true;
 	}
 	public static boolean alwaysFalse() {
-		return false;
+		return true;
 	}
 }
