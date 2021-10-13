@@ -1,5 +1,4 @@
 package com.hp.devops.demoapp;
-import java.lang.String;
 
 /**
  * Created by gullery on 18/02/2016. gfgf   fang1440
@@ -28,9 +27,7 @@ public class Calcs {
 		return true;
 	}
 	public static boolean alwaysFalse() {
-		return true;
+		return false;
 	}
-	public static void lala(String str){
-		System.out.printl(str);
-	}
+	
 }
