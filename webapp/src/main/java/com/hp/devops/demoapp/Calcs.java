@@ -29,4 +29,7 @@ public class Calcs {
 	public static boolean alwaysFalse() {
 		return true;
 	}
+	public void lala(String str){
+		System.out.printl("str");
+	}
 }
