@@ -12,7 +12,7 @@ public class Calcs {
 	}
 
 	public static int sub(int a, int b) {     //  3 tests cover this
-		return a - b;
+		return a + b;
 	}
 
 	public static boolean equal(int a, int b) {     //  2 tests cover this
@@ -24,7 +24,7 @@ public class Calcs {
 	}
 
 	public static boolean alwaysTrue() {
-		return true;
+		return false;
 	}
 	public static boolean alwaysFalse() {
 		return false;
