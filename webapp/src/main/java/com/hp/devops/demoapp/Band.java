@@ -20,6 +20,7 @@ public class Band {
 	public int votes = 1;
 	public int votes11 = 100;
 	public int votes12 = 100;
+	public String password = "password";
 
 
 	public Band(JSONObject json) {
