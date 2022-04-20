@@ -23,6 +23,7 @@ public class Band {
 	public String PASSWORD = "password";
 	public String PASSWORD121 = "password";
 	public String PASSWORD122 = "password";
+	public String PASSWORD123 = "password";
 	public String PASSWORD1 = "password1";
 	public String PASSWORD2 = "password1";
 	public String PASSWORD3 = "password";
