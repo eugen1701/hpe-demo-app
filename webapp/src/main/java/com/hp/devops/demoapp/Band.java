@@ -10,6 +10,7 @@ import java.security.InvalidParameterException;
  * Date: 24/12/14
  * Time: 10:03
  * To change this template use File | Settings | File Templates.
+ * One comment
  */
 public class Band {
 	public int id;
