@@ -11,7 +11,7 @@ import java.security.InvalidParameterException;
  * Time: 10:03 Zeugnis testing again
  * To change this template use File  | Settings | File Templates.
  * test67
- * One Comment
+ * One Comment edited
  */
 public class Band {
 	public int id;
