@@ -123,14 +123,6 @@
 					</plugin>
 				</plugins>
 			</build>
-
-			<dependencies>
-				<dependency>
-					<groupId>com.hp.mqm</groupId>
-					<artifactId>nga-surefire-listener</artifactId>
-					<version>12.53.1-SNAPSHOT</version>
-				</dependency>
-			</dependencies>
 		</profile>
 	</profiles>
 </project>
