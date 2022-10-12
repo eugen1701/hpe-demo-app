@@ -11,10 +11,14 @@
 
 	<artifactId>ui-tests-testng</artifactId>
 
+
+
 	<name>Discover Demo App - Tribute to Progressive Music (UI TestNG Tests)</name>
 
     <properties>
         <suiteFile>src/test/resources/testng.xml</suiteFile>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
 	<dependencies>
