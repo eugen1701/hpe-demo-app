@@ -13,7 +13,7 @@ import java.security.InvalidParameterException;
  * One comment edited
  * Second comment edited
  */
-public class Band {
+public class Band { //comm
 	public int id;
 	public String name = "test";
 	public String logo = "2";
