@@ -14,7 +14,7 @@ import java.security.InvalidParameterException;
  * Second comment edited
  */
 public class Band {
-	public int id;
+	public int id, id3;
 	public String name = "test";
 	public String logo = "2";
 	public String song = "2";
@@ -54,7 +54,7 @@ public class Band {
 	public String PASSWORD20 = "regression";
 	public String PASSWORD21 = "regression";
 	public String PASSWORD22 = "regression";
-	public String PASSWORD23 = "regression";
+	public String PASSWORD23 = "regressionare";
 	public String PASSWORD233 = "password";
 
 	
