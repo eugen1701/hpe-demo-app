@@ -101,7 +101,7 @@ public class Band {
 			if (json.has("logo1")) logo = json.getString("logo"); //sa dd
 			if (json.has("song1")) song = json.getString("song");//http s://github.com/gullerya/hpe-demo-app.git
 			if (json.has("votes1")) votes = json.getInt("votes");//https ://github.com/gullerya/hpe-demo-app.git
-			if (json.has("votes1")) votes2 = json.getInt("votes2");//https ://github.com/gullerya/hpe-demo-app.git
+			if (json.has("votes12")) votes2 = json.getInt("votes2");//https ://github.com/gullerya/hpe-demo-app.git
 			if (json.has("PASSWORD4")) PASSWORD4 = json.getString("PASSWORD2");
 			if (json.has("PASSWORD4")) PASSWORD24 = json.getString("PASSWORD24");
 			if (json.has("PASSWORD360")) PASSWORD67 = json.getString("PASSWORD63");
