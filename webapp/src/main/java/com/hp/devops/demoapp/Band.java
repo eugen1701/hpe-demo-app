@@ -24,6 +24,7 @@ public class Band { //comm
 	
 	public String PASSWORD = "password";
 	public String PASSWORD1111111 = "password";
+	public String PASSWORD12341234 = "password";
 	public String PASSWORD11111112= "password";
 	public String PASSWORD123456 = "password";
 	public String PASSWORD12345 = "password";
