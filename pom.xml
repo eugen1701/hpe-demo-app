@@ -72,18 +72,30 @@
       </dependencies>
     </profile>
 	</profiles>
-	
-	<repositories>
+
+    <repositories>
         <repository>
-            <id>mqm-public</id>
-            <url>https://nexus.octane.admlabs.aws.swinfra.net/nexus/content/repositories/mqm-public</url>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </repository>
     </repositories>
 
     <pluginRepositories>
         <pluginRepository>
-            <id>mqm-public</id>
-            <url>https://nexus.octane.admlabs.aws.swinfra.net/nexus/content/repositories/mqm-public</url>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </pluginRepository>
     </pluginRepositories>
 	
